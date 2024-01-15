@@ -107,8 +107,33 @@ main{
 .teams-title .text-features{
   color:#ff900e;
   font-weight: 700;
+
 }
 
+.features{
+  display: flex;
+  margin-top: 30px;
+  gap: 15px;
+  width: 400px;
+  margin-left: 200px;
+}
+.features .section-title{
+  border-left: 5px;
+}
+
+.feature-content .card{
+  padding: 2px;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+  width: 300px;
+}
+.feature-image{
+  width: 100px;
+  margin-top: 30px;
+  height: 800px;
+}
 .facts{
   margin-left: 220px;
   width: 950px;
@@ -164,7 +189,8 @@ main{
   nav,
   .teams-container,
   .facts-card-container,
-  .sponsors-img-container
+  .sponsors-img-container,
+  .features
   {
     flex-direction: column;
   }
@@ -202,6 +228,11 @@ main{
     height: 100px;
     width: 150px;
   }
+  .features{
+    display: flex;
+    margin-left: 0;
+    grid-template-columns: 1fr;
+  }
 }
 
 
@@ -234,6 +265,9 @@ main{
   .sponsors-img-container img{
     height: 35px;
     width: 70px;
+  }
+  .features{
+    margin-left: 0;
   }
 }
 
