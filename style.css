@@ -197,7 +197,10 @@ main{
     text-align: left;
   }
   .sponsors-img-container{
-    gap:  20px;
+    margin-left: 130px;
+    gap:  50px;
+    height: 100px;
+    width: 150px;
   }
 }
 
@@ -223,6 +226,14 @@ main{
   }
   .facts-card-container{
     grid-template-columns: repeat(2, 1fr);
+  }
+  .sponsors-img-container{
+    gap: 5px;
+    margin-top: 20px;
+  }
+  .sponsors-img-container img{
+    height: 35px;
+    width: 70px;
   }
 }
 
